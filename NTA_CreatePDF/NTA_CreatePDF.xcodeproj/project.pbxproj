@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E40BFA5243737FA008A5870 /* ReadPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40BFA3243737FA008A5870 /* ReadPDFViewController.m */; };
+		3E40BFA6243737FA008A5870 /* ReadPDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E40BFA4243737FA008A5870 /* ReadPDFViewController.xib */; };
+		584B4DA81C7B6A8600ECCA28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B4DA71C7B6A8600ECCA28 /* main.m */; };
+		584B4DAB1C7B6A8600ECCA28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B4DAA1C7B6A8600ECCA28 /* AppDelegate.m */; };
+		584B4DAE1C7B6A8600ECCA28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B4DAD1C7B6A8600ECCA28 /* ViewController.m */; };
+		584B4DB11C7B6A8600ECCA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584B4DAF1C7B6A8600ECCA28 /* Main.storyboard */; };
+		584B4DB31C7B6A8600ECCA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584B4DB21C7B6A8600ECCA28 /* Assets.xcassets */; };
+		584B4DB61C7B6A8600ECCA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584B4DB41C7B6A8600ECCA28 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E40BFA2243737FA008A5870 /* ReadPDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadPDFViewController.h; sourceTree = "<group>"; };
+		3E40BFA3243737FA008A5870 /* ReadPDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadPDFViewController.m; sourceTree = "<group>"; };
+		3E40BFA4243737FA008A5870 /* ReadPDFViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReadPDFViewController.xib; sourceTree = "<group>"; };
+		584B4DA31C7B6A8600ECCA28 /* NTA_CreatePDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTA_CreatePDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		584B4DA71C7B6A8600ECCA28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		584B4DA91C7B6A8600ECCA28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		584B4DAA1C7B6A8600ECCA28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		584B4DAC1C7B6A8600ECCA28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		584B4DAD1C7B6A8600ECCA28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		584B4DB01C7B6A8600ECCA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		584B4DB21C7B6A8600ECCA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		584B4DB51C7B6A8600ECCA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		584B4DB71C7B6A8600ECCA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		584B4DA01C7B6A8600ECCA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		584B4D9A1C7B6A8600ECCA28 = {
+			isa = PBXGroup;
+			children = (
+				584B4DA51C7B6A8600ECCA28 /* NTA_CreatePDF */,
+				584B4DA41C7B6A8600ECCA28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		584B4DA41C7B6A8600ECCA28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				584B4DA31C7B6A8600ECCA28 /* NTA_CreatePDF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		584B4DA51C7B6A8600ECCA28 /* NTA_CreatePDF */ = {
+			isa = PBXGroup;
+			children = (
+				584B4DA91C7B6A8600ECCA28 /* AppDelegate.h */,
+				584B4DAA1C7B6A8600ECCA28 /* AppDelegate.m */,
+				584B4DAC1C7B6A8600ECCA28 /* ViewController.h */,
+				584B4DAD1C7B6A8600ECCA28 /* ViewController.m */,
+				584B4DAF1C7B6A8600ECCA28 /* Main.storyboard */,
+				584B4DB21C7B6A8600ECCA28 /* Assets.xcassets */,
+				584B4DB41C7B6A8600ECCA28 /* LaunchScreen.storyboard */,
+				584B4DB71C7B6A8600ECCA28 /* Info.plist */,
+				584B4DA61C7B6A8600ECCA28 /* Supporting Files */,
+				3E40BFA2243737FA008A5870 /* ReadPDFViewController.h */,
+				3E40BFA3243737FA008A5870 /* ReadPDFViewController.m */,
+				3E40BFA4243737FA008A5870 /* ReadPDFViewController.xib */,
+			);
+			path = NTA_CreatePDF;
+			sourceTree = "<group>";
+		};
+		584B4DA61C7B6A8600ECCA28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				584B4DA71C7B6A8600ECCA28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		584B4DA21C7B6A8600ECCA28 /* NTA_CreatePDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584B4DBA1C7B6A8600ECCA28 /* Build configuration list for PBXNativeTarget "NTA_CreatePDF" */;
+			buildPhases = (
+				584B4D9F1C7B6A8600ECCA28 /* Sources */,
+				584B4DA01C7B6A8600ECCA28 /* Frameworks */,
+				584B4DA11C7B6A8600ECCA28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTA_CreatePDF;
+			productName = NTA_CreatePDF;
+			productReference = 584B4DA31C7B6A8600ECCA28 /* NTA_CreatePDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		584B4D9B1C7B6A8600ECCA28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ATA_Studio;
+				TargetAttributes = {
+					584B4DA21C7B6A8600ECCA28 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 584B4D9E1C7B6A8600ECCA28 /* Build configuration list for PBXProject "NTA_CreatePDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 584B4D9A1C7B6A8600ECCA28;
+			productRefGroup = 584B4DA41C7B6A8600ECCA28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				584B4DA21C7B6A8600ECCA28 /* NTA_CreatePDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		584B4DA11C7B6A8600ECCA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584B4DB61C7B6A8600ECCA28 /* LaunchScreen.storyboard in Resources */,
+				584B4DB31C7B6A8600ECCA28 /* Assets.xcassets in Resources */,
+				584B4DB11C7B6A8600ECCA28 /* Main.storyboard in Resources */,
+				3E40BFA6243737FA008A5870 /* ReadPDFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		584B4D9F1C7B6A8600ECCA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584B4DAE1C7B6A8600ECCA28 /* ViewController.m in Sources */,
+				584B4DAB1C7B6A8600ECCA28 /* AppDelegate.m in Sources */,
+				584B4DA81C7B6A8600ECCA28 /* main.m in Sources */,
+				3E40BFA5243737FA008A5870 /* ReadPDFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		584B4DAF1C7B6A8600ECCA28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584B4DB01C7B6A8600ECCA28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		584B4DB41C7B6A8600ECCA28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584B4DB51C7B6A8600ECCA28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		584B4DB81C7B6A8600ECCA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		584B4DB91C7B6A8600ECCA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		584B4DBB1C7B6A8600ECCA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTA_CreatePDF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anhnt..NTA-CreatePDF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		584B4DBC1C7B6A8600ECCA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTA_CreatePDF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anhnt..NTA-CreatePDF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		584B4D9E1C7B6A8600ECCA28 /* Build configuration list for PBXProject "NTA_CreatePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584B4DB81C7B6A8600ECCA28 /* Debug */,
+				584B4DB91C7B6A8600ECCA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584B4DBA1C7B6A8600ECCA28 /* Build configuration list for PBXNativeTarget "NTA_CreatePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584B4DBB1C7B6A8600ECCA28 /* Debug */,
+				584B4DBC1C7B6A8600ECCA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 584B4D9B1C7B6A8600ECCA28 /* Project object */;
+}
